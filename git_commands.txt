@@ -1,0 +1,96 @@
+
+GIT COMMANDS USED IN THE ASSIGNMENT
+====================================
+
+1. mkdir Git-GitHub-Assignment
+   Creates the project directory.
+
+2. cd Git-GitHub-Assignment
+   Navigates into the project directory.
+
+3. code .
+   Opens the current directory in VS Code.
+
+4. git init
+   Initializes a new local Git repository.
+
+5. git branch -M main
+   Renames the current branch to main.
+
+6. git status
+   Displays the current repository status.
+
+7. git add .
+   Stages all files for committing.
+
+8. git commit -m "Initial commit: Add HTML files"
+   Creates the initial project commit.
+
+9. git add index.html
+   Stages changes made to index.html.
+
+10. git commit -m "Update homepage content"
+    Saves the updated homepage.
+
+11. git log --oneline
+    Displays the commit history in one-line format.
+
+12. git branch feature
+    Creates a new branch named feature.
+
+13. git switch feature
+    Switches to the feature branch.
+
+14. git branch
+    Displays all local branches.
+
+15. git add about.html
+    Stages changes made to about.html.
+
+16. git commit -m "Add feature branch content"
+    Saves the changes made in the feature branch.
+
+17. git switch main
+    Switches back to the main branch.
+
+18. git merge feature
+    Merges the feature branch into main.
+
+19. git log --oneline --graph --all
+    Displays commit history with branch relationships.
+
+20. mkdir temp
+    Creates a temporary directory.
+
+21. touch temp/test.txt
+    Creates a test file inside the temp directory.
+
+22. touch debug.log
+    Creates a log file to test gitignore.
+
+23. git add .gitignore
+    Stages the gitignore configuration.
+
+24. git commit -m "Add gitignore configuration"
+    Saves the gitignore configuration.
+
+25. git add extra.txt
+    Stages the additional file.
+
+26. git commit -m "Add extra file for undo demonstration"
+    Creates an additional commit for undo demonstration.
+
+27. git reset --soft HEAD~1
+    Undoes the latest commit while keeping changes staged.
+
+28. git remote add origin <GitHub Repository URL>
+    Connects the local repository to GitHub.
+
+29. git remote -v
+    Displays the configured remote repository URLs.
+
+30. git push -u origin main
+    Pushes the main branch to GitHub.
+
+31. git push -u origin feature
+    Pushes the feature branch to GitHub.
